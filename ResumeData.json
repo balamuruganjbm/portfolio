@@ -1,0 +1,129 @@
+{
+	"intro": {
+		"name": "Balamurugan J",
+		"description": "Web Developer, Coder, Tech Instructor",
+		"profilePic": "/images/profilePic.jpg",
+		"resumeDownloadLink": ""
+	},
+	"contact": {
+		"address": {
+			"addressLine1": "Plot no: 2885",
+			"addressLine2": "TNHB Colony, Villapuram",
+			"city": "Madurai",
+			"zip": "625011"
+		},
+		"email": "j.balamurugan1997@gmail.com",
+		"phone": "9443533030"
+	},
+	"social": [
+		{
+			"name": "github",
+			"url": "https://github.com/balamuruganjbm/",
+			"icon": "fab fa-github  fa-4x",
+			"bgcolor": "black",
+			"color": "white"
+		},
+		{
+			"name": "youtube",
+			"url": "https://www.youtube.com/channel/UCiNgyKMWR58MEl6Hn2vY2GQ/videos?view_as=subscriber",
+			"icon": "fab fa-youtube fa-4x",
+			"bgcolor": "#c4302b",
+			"color": "white"
+		},
+		{
+			"name": "linkedin",
+			"url": "https://www.linkedin.com/in/balamurugan-j-42160916b/",
+			"icon": "fab fa-linkedin fa-4x",
+			"bgcolor": "#0e76a8",
+			"color": "white"
+		},
+		{
+			"name": "twitter",
+			"url": "https://twitter.com/imnotjbm?s=08",
+			"icon": "fab fa-twitter fa-4x",
+			"bgcolor": "#00acee",
+			"color": "white"
+		}
+	],
+	"education": [
+		{
+			"year": "2019",
+			"degree": "B.Tech Information Technology",
+			"institution": "Velammal College of Engineering and Technology",
+			"board": "Affiliated by Anna University",
+			"percentage": "6.57"
+		},
+		{
+			"year": "2015",
+			"degree": "HSC",
+			"institution": "TVS Matriculation Higher Secondary School",
+			"board": "State Board",
+			"percentage": "89.67%"
+		},
+		{
+			"year": "2013",
+			"degree": "SSLC",
+			"institution": "KNG Matriculation School",
+			"board": "State Board",
+			"percentage": "93.8%"
+		}
+	],
+	"skills": [
+		{
+			"name": "Node JS",
+			"imgUrl": "/images/nodejs.png",
+			"skillLevel": "70"
+		},
+		{
+			"name": "Mongo DB",
+			"imgUrl": "/images/mongo db.png",
+			"skillLevel": "70"
+		},
+		{
+			"name": "JavaScript",
+			"imgUrl": "/images/javascript.png",
+			"skillLevel": "80"
+		},
+		{
+			"name": "React JS",
+			"imgUrl": "/images/reactjs.png",
+			"skillLevel": "80"
+		},
+		{
+			"name": "CSS",
+			"imgUrl": "/images/css.png",
+			"skillLevel": "80"
+		},
+		{
+			"name": "SASS",
+			"imgUrl": "/images/sass.png",
+			"skillLevel": "50"
+		}
+	],
+	"projects": [
+		{
+			"title": "JOBAT MOVIE",
+			"description": "A web app used Passport.js to authenticate user and allows them to post or leave a comment under a post and saves them in mongo DB",
+			"giturl": "https://github.com/balamuruganjbm/jobatmovie",
+			"images": "/images/movie.png"
+		},
+		{
+			"title": "TODO APP",
+			"description": "A simple TODO web app developed using React Hooks and contect Api.",
+			"giturl": "https://codesandbox.io/s/todo-using-context-api-ciuew",
+			"images": "/images/todo.png"
+		},
+		{
+			"title": "BLOG APP",
+			"description": "A web app using REST API method CRUD operations users can manage their blog posts",
+			"giturl": "https://github.com/balamuruganjbm/Blogapp",
+			"images": "/images/blog.png"
+		},
+		{
+			"title": "TEXT EDITOR",
+			"description": "A web app build using Vanilla JavaScript similar to WIX site where user can create a website and generate the HTML code",
+			"giturl": "https://github.com/balamuruganjbm/htmleditor",
+			"images": "/images/editor.png"
+		}
+	]
+}
