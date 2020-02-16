@@ -1,0 +1,48 @@
+.education {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	&-container {
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		text-align: center;
+	}
+	&-items {
+		background-color: $primary-color;
+		opacity: 0.9;
+		padding: 10px;
+		height: 40%;
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		border-radius: .5em;
+		box-shadow: inset 9px 9px 16px rgba(163, 177, 198, 0.6), inset -9px -9px 16px rgba(255, 255, 255, 0.5);
+		#education-year {
+			padding: 30px;
+			color: black;
+			font-size: 2em;
+			font-weight: 10em;
+		}
+	}
+}
+@media only screen and (max-width: 700px) {
+	.education-container {
+		flex-direction: column;
+	}
+	.education-items {
+		width: 60%;
+		height: 30%;
+		#education-year {
+			padding: 10px;
+			font-size: 1em;
+		}
+	}
+}
+@media only screen and (max-width: 380px) {
+	#education-content {
+		font-size: 0.7em;
+	}
+}

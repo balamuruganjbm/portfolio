@@ -1,0 +1,27 @@
+$primary-color: #c3e6e0;
+$secondary-color: #f5b4b2;
+$third-color: whitesmoke;
+$main-font: 'Raleway', sans-serif;
+$heading-font: 'Open Sans', sans-serif;
+$para-font: 'PT Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p {
+	font-family: $para-font;
+}
+
+h3,
+h4,
+h5 {
+	font-family: $heading-font;
+}
+body {
+	background-color: $primary-color;
+}

@@ -1,0 +1,48 @@
+$bgpicURL: "/images/background-pic-2.jpg";
+
+.intro {
+	font-family: $main-font;
+	font-size: 1.5em;
+	background-image: url($bgpicURL);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	&-container {
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	&-items-1 {
+		width: 50%;
+		#intro-name {
+			color: teal;
+		}
+		h2 {
+			color: rgba(0, 0, 0, 0.603);
+		}
+	}
+	&-items-2 {
+		img {
+			width: 170px;
+			height: 170px;
+			border-radius: 100px;
+			//box-shadow: 50px 50px 50px rgba(255, 255, 255, .4);
+			box-shadow: 25px 10px 20px teal;
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.intro {
+		font-size: 1.3em;
+		&-container {
+			flex-direction: column;
+		}
+		&-items-1 {
+			width: 70%;
+			height: 40%;
+		}
+	}
+}
