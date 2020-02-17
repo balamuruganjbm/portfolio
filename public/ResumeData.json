@@ -2,7 +2,7 @@
 	"intro": {
 		"name": "Balamurugan J",
 		"description": "Web Developer, Coder, Tech Instructor",
-		"profilePic": "/images/profilePic.jpg",
+		"profilePic": "images/profilePic.jpg",
 		"resumeDownloadLink": ""
 	},
 	"contact": {
@@ -71,32 +71,32 @@
 	"skills": [
 		{
 			"name": "Node JS",
-			"imgUrl": "/images/nodejs.png",
+			"imgUrl": "images/nodejs.png",
 			"skillLevel": "70"
 		},
 		{
 			"name": "Mongo DB",
-			"imgUrl": "/images/mongo db.png",
+			"imgUrl": "images/mongo db.png",
 			"skillLevel": "70"
 		},
 		{
 			"name": "JavaScript",
-			"imgUrl": "/images/javascript.png",
+			"imgUrl": "images/javascript.png",
 			"skillLevel": "80"
 		},
 		{
 			"name": "React JS",
-			"imgUrl": "/images/reactjs.png",
+			"imgUrl": "images/reactjs.png",
 			"skillLevel": "80"
 		},
 		{
 			"name": "CSS",
-			"imgUrl": "/images/css.png",
+			"imgUrl": "images/css.png",
 			"skillLevel": "80"
 		},
 		{
 			"name": "SASS",
-			"imgUrl": "/images/sass.png",
+			"imgUrl": "images/sass.png",
 			"skillLevel": "50"
 		}
 	],
@@ -105,25 +105,25 @@
 			"title": "JOBAT MOVIE",
 			"description": "A web app used Passport.js to authenticate user and allows them to post or leave a comment under a post and saves them in mongo DB",
 			"giturl": "https://github.com/balamuruganjbm/jobatmovie",
-			"images": "/images/movie.png"
+			"images": "images/movie.png"
 		},
 		{
 			"title": "TODO APP",
 			"description": "A simple TODO web app developed using React Hooks and contect Api.",
 			"giturl": "https://codesandbox.io/s/todo-using-context-api-ciuew",
-			"images": "/images/todo.png"
+			"images": "images/todo.png"
 		},
 		{
 			"title": "BLOG APP",
 			"description": "A web app using REST API method CRUD operations users can manage their blog posts",
 			"giturl": "https://github.com/balamuruganjbm/Blogapp",
-			"images": "/images/blog.png"
+			"images": "images/blog.png"
 		},
 		{
 			"title": "TEXT EDITOR",
 			"description": "A web app build using Vanilla JavaScript similar to WIX site where user can create a website and generate the HTML code",
 			"giturl": "https://github.com/balamuruganjbm/htmleditor",
-			"images": "/images/editor.png"
+			"images": "images/editor.png"
 		}
 	]
 }

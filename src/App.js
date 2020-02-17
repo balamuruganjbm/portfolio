@@ -8,7 +8,7 @@ import './css/main.css';
 
 class App extends Component {
 	static defaultProps = {
-		url: '../public/ResumeData.json'
+		url: 'process.env.PUBLIC_URL/ResumeData.json'
 	};
 	constructor(props) {
 		super();
