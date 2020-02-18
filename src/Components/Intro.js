@@ -19,7 +19,7 @@ export default class Intro extends Component {
 						</h2>
 					</div>
 					<div className="intro-items-2">
-						<img src={data.profilePic} alt="Balamurugan Profile pic" />
+						<img src={data.profilePic} alt="ProfilePic" />
 					</div>
 				</div>
 			</div>

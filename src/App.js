@@ -17,7 +17,7 @@ class App extends Component {
 		};
 	}
 	componentDidMount() {
-		fetch('../ResumeData.json')
+		fetch('./ResumeData.json')
 			.then((req) => {
 				if (!req.ok) throw Error(req.status);
 				else {
