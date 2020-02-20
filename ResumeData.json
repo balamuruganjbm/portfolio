@@ -103,13 +103,13 @@
 	"projects": [
 		{
 			"title": "JOBAT MOVIE",
-			"description": "A web app used Passport.js to authenticate user and allows them to post or leave a comment under a post and saves them in mongo DB",
+			"description": "A web app using Passport.js to authenticate user and allow them to post or leave a comment under a post and saves them in mongo DB",
 			"giturl": "https://github.com/balamuruganjbm/jobatmovie",
 			"images": "images/movie.png"
 		},
 		{
 			"title": "TODO APP",
-			"description": "A simple TODO web app developed using React Hooks and contect Api.",
+			"description": "A simple To-Do web app developed using React Hooks and context API.",
 			"giturl": "https://codesandbox.io/s/todo-using-context-api-ciuew",
 			"images": "images/todo.png"
 		},
@@ -121,7 +121,7 @@
 		},
 		{
 			"title": "TEXT EDITOR",
-			"description": "A web app build using Vanilla JavaScript similar to WIX site where user can create a website and generate the HTML code",
+			"description": "A web app, similar to WIX site, built using Vanilla JavaScript, where user can create a website and generate the HTML code",
 			"giturl": "https://github.com/balamuruganjbm/htmleditor",
 			"images": "images/editor.png"
 		}
